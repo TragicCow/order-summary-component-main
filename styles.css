@@ -1,0 +1,117 @@
+body {
+  background-color: #e9eeff;
+  background-image: url("pattern-background-desktop.svg");
+  background-repeat: repeat-x;
+  color: #1f2f56;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+  padding-top: 30px;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.mainp {
+  margin-bottom: 50px;
+  margin-top: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.d {
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  right: 65px;
+}
+
+.annual-plan {
+  background-color: #F5F7FF;
+  border-radius: 15px;
+  display: block;
+  margin-left: 40px;
+  margin-right: 40px;
+  position: relative;
+}
+
+.paragraph {
+  color: #7280a7;
+  display: inline-block;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  height: 700px;
+  margin: auto;
+  margin-top: 10em;
+  text-align: center;
+  width: 450px;
+}
+
+.change {
+  display: inline-block;
+  position: relative;
+}
+
+.hero-img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.music-icon {
+  left: 11%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.attribution {
+  visibility: hidden;
+}
+
+.price {
+  color: #7280A7;
+  margin-top: 5px;
+}
+
+.change {
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+
+.proceed-button {
+  margin-top: 30px;
+  background-color: #3829E0;
+  color: white;
+  font-size: 14px;
+  border-radius: 10px;
+  padding: 2% 25% 2%;
+  font-weight: 700;
+  font-family: 'Red Hat Display', sans-serif;
+  display: inline-block;
+  text-align: center;
+}
+
+.proceed-button:hover {
+  background-color: #3224C9
+}
+
+.cancel-button {
+  border: none;
+  background: none;
+  margin-top: 30px;
+  color: #7280A7;
+  font-weight: 700;
+  font-size: 14px;
+}
